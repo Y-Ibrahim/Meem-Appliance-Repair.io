@@ -1,0 +1,286 @@
+*{
+    font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+a {
+    text-decoration: hidden;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+p h1{
+    color: whitesmoke;
+}
+
+header, section {
+    overflow-x: hidden;
+}
+
+
+
+header {
+    font-size: 0.7em;
+    color: whitesmoke;
+    background-color: #2e2e2e;
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+header .navbar-brand{
+    padding-left: 2rem;
+    
+}
+
+header .nav-link{
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+
+header .nav-link:hover{
+    color: black;
+}
+
+
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom:30vmin;
+}
+
+header .row .col-md-5 img{
+    width:90%;
+}
+
+header .container .col-md-7 h6{
+    padding:1vmin;
+    letter-spacing: 3.5px;
+    font-weight: bold;
+}
+
+header .container .col-md-7 h1{
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #50b9e6;
+    color: black;
+    border: 2px solid #50b9e6;
+}
+
+header .container .col-md-7 button:hover{
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #295d73;
+    color: white;
+    
+}
+
+.stock-photo{
+    margin-top: 200px;
+}
+
+/* Section 1 */
+
+.section-1{
+    
+    padding: 20vmin 0;
+    background-color: #424242;
+    border-top: 4px solid #50b9e6;
+    border-bottom: 4px solid #50b9e6;
+}
+
+.section-1 .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.section-1 p {
+    margin-top: 20px;
+}
+.tab-item{
+    border-right: 2px solid gray;
+}
+
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.9;
+    width: 100%;   
+}
+
+.text-left{
+color: whitesmoke;
+}
+
+/* Section 2 */
+
+.section-2 {
+    
+    background-color: #2e2e2e;
+}
+
+.section-2 h1 {
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.cover {
+    width:100%;
+    height: 100vmin;
+    
+    background-repeat: no-repeat;
+    padding: 20vmin 0;
+    margin-bottom: 9rem;
+  
+
+}
+
+
+
+
+.B-elements{
+    color: white;
+    left: 50%;
+    top: 70%;
+    align-content: center;
+    letter-spacing: 0.4rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.bold{
+    font-size: 4vmin;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+}
+/* section 3 */
+
+.section-3 {
+    background-color: #2e2e2e;
+border-top: 4px solid #50b9e6;
+color: white;
+
+
+
+
+}
+
+/* contact */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact__title{
+    margin-top: 100px;
+    color: var(--sec-col);
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    transition: 0.4s ease;
+}
+
+.contact__title h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.contact__title h2{
+    font-size: 1em;
+}
+
+form{
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.form__control{
+    width: 600px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin-bottom: 50px;
+
+
+}
+input{
+    height: 45px;
+}
+
+.form__control{
+    background-color: #E1DAD9;
+    border-color: transparent;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    
+    border-radius: 4px;
+}
+
+button.form__control{
+    color: black;
+      cursor: pointer;
+      
+      background-color: #50b9e6;
+  }
+
+
+
+
+button.form__control:hover{
+  color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 5px 5px  #295d73;
+    
+}
+
+
+.status__valid{
+    margin-bottom: 5px;
+    font-size: 1em;
+    color:greenyellow;
+    text-align: center;
+}
+
+.status__invalid{
+    margin-bottom: 5px;
+    font-size: 1em;
+    color:red;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-left: 4px;
+    
+}
